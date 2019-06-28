@@ -409,7 +409,7 @@ footer, .page-content::after{
 	
 	.dropbtn
 	{
-		padding-left:50px;
+		padding-left:40px;
 	}
 }
 @media screen and (max-width: 576px) {
