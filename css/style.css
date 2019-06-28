@@ -409,7 +409,7 @@ footer, .page-content::after{
 	
 	.dropbtn
 	{
-		padding-left:70px;
+		padding-left:60px;
 	}
 }
 
@@ -426,7 +426,7 @@ footer, .page-content::after{
 	}
 }
 
-@media screen and (max-width: 577px) {
+@media screen and (max-width: 576px) {
 	#logo
 	{
 		padding-top:40%;
