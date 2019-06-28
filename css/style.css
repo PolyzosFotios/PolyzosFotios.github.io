@@ -403,8 +403,13 @@ footer, .page-content::after{
 @media screen and (max-width: 768px) {
 	#logo
 	{
-		padding-top:45%;
-		width: 80%;
+		padding-top:40%;
+		width: 70%;
+	}
+	
+	.dropbtn
+	{
+		padding-left:50px;
 	}
 }
 @media screen and (max-width: 576px) {
