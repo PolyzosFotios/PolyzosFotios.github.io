@@ -216,6 +216,7 @@ footer, .page-content::after{
   border: none;
   cursor: pointer;
   margin-right:0px;
+  padding-top:0px
 }
 
 /* Dropdown button on hover & focus */
@@ -402,14 +403,14 @@ footer, .page-content::after{
 @media screen and (max-width: 768px) {
 	#logo
 	{
-		padding-top:20%;
-		width: 60%;
+		padding-top:45%;
+		width: 70%;
 	}
 }
 @media screen and (max-width: 576px) {
 	#logo
 	{
-		padding-left:0%;
+		padding-top:40%;
 		width: 100%;
 	}
 
