@@ -205,6 +205,13 @@ footer, .page-content::after{
 	padding-top:50px;
 }
 
+#prtexts
+{
+	color: #000;
+	font-family: "Caviar Dreams";
+	font-size: 100%;
+}
+
 /* MENU ////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /* Dropdown Button */
@@ -268,14 +275,14 @@ footer, .page-content::after{
 
 /*Photo Pop Up ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* Style the Image Used to Trigger the Modal */
-#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8, #myImg9, #myImg10, #myImg11, #myImg12, #myImg13, #myImg14, #myImg15, #myImg16, #myImg17, #myImg18, #myImg19, #myImg20, #myImg21, #myImg22, #myImg23, #myImg24, #myImg25 {
+#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8, #myImg9, #myImg10, #myImg11, #myImg12, #myImg13, #myImg14, #myImg15, #myImg16, #myImg17, #myImg18, #myImg19, #myImg20, #myImg21, #myImg22, #myImg23, #myImg24, #myImg25, #myImg26, #myImg27, #myImg28, #myImg29, #myImg30, #myImg31, #myImg32, #myImg33, #myImg34, #myImg35, #myImg36, #myImg37, #myImg38, #myImg39, #myImg40, #myImg41, #myImg42, #myImg43, #myImg44, #myImg45, #myImg46, #myImg47, #myImg48, #myImg49, #myImg50 {
   border-radius: 0px;
   cursor: pointer;
   transition: 0.3s;
 }
 
 
-#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8, #myImg9, #myImg10, #myImg11, #myImg12, #myImg13, #myImg14, #myImg15, #myImg16, #myImg17, #myImg18, #myImg19, #myImg20, #myImg21, #myImg22, #myImg23, #myImg24, #myImg25 :hover {opacity: 1;}
+#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8, #myImg9, #myImg10, #myImg11, #myImg12, #myImg13, #myImg14, #myImg15, #myImg16, #myImg17, #myImg18, #myImg19, #myImg20, #myImg21, #myImg22, #myImg23, #myImg24, #myImg25, #myImg26, #myImg27, #myImg28, #myImg29, #myImg30, #myImg31, #myImg32, #myImg33, #myImg34, #myImg35, #myImg36, #myImg37, #myImg38, #myImg39, #myImg40, #myImg41, #myImg42, #myImg43, #myImg44, #myImg45, #myImg46, #myImg47, #myImg48, #myImg49, #myImg50 :hover {opacity: 1;}
 
 /* The Modal (background) */
 .modal {
@@ -307,7 +314,7 @@ footer, .page-content::after{
   width: 80%;
   max-width: 700px;
   text-align: center;
-  color: #ccc;
+  color: #000;
   padding: 10px 0;
   height: 150px;
 }
