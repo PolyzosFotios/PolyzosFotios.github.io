@@ -41,7 +41,7 @@
 {
 	color: #999999;
 	text-align: center;
-	font-size:75%
+	font-size:12px;
 }
 
 /* MENU//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -136,7 +136,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-	padding-bottom:30px;
+	padding-bottom:10px;
 }
 
 .underImageText
@@ -144,7 +144,6 @@
 	text-align: center;
 	color: #fff;
 	font-size: 14px;
-	padding-bottom:0px;
 }
 
 .tiles-wrap li {
@@ -155,8 +154,11 @@
 	background-color: #000;
 	float: left;
 	cursor: pointer;
-	width: 300px;
-	padding: 10px;
+	width: 250px;
+	padding-top:15px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:30px;
 	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 		-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
@@ -213,6 +215,60 @@
 }
 
 /*//////////////////////// END GRID ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/*//////////////////////// ARTICLES & TRAVELS TEXT ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.articleInfo
+{
+	font-size: 10px;
+	padding-bottom: 70px;
+	color: #999999;
+}
+
+.articleText
+{
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 20px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.articleSubTitle
+{
+	padding-left: 100px;
+	font-size: 20px;
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+.articleCatecory
+{
+	font-size: 10px;
+	color: #999999;
+}
+
+.articlePhotos
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	padding-bottom: 20px;
+}
+
+.articlePhotoText
+{
+	font-size: 12px;
+	color: #999999;
+	padding-bottom: 20px;
+}
+
+
+/*//////////////////////// ARTICLES & TRAVELS TEXT END ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
 
