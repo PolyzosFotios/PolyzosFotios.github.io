@@ -24,7 +24,8 @@
 }
 .textFont
 {
-	font-family: 'Source Code Pro', monospace;
+	font-family: 'Roboto Slab', serif;
+	/*font-family: 'Source Code Pro', monospace;*/
 }
 .generalText
 {
