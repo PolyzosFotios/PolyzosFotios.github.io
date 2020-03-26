@@ -7,6 +7,11 @@
 	padding-bottom:30px;
 }
 
+.shareToSocial
+{
+	opacity:0.5;
+}
+
 .center
 {
 	display: block;
@@ -21,6 +26,15 @@
 	color: #999999;
 	font-size: 14px;
 	padding-bottom:30px;
+}
+
+.lineUnderEverything
+{
+	text-align: center;
+	color: #999999;
+	font-size: 14px;
+	padding-bottom:30px;
+	padding-top: 30px;
 }
 .textFont
 {
@@ -87,11 +101,11 @@
 /*//////////////////////// FADE IN ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .fadeImage {
-    -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 6s; /* Firefox < 16 */
-        -ms-animation: fadein 6s; /* Internet Explorer */
-         -o-animation: fadein 6s; /* Opera < 12.1 */
-            animation: fadein 6s;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
     display: block;
     margin: 25px auto;
 }
