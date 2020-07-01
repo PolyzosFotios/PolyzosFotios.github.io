@@ -11,7 +11,7 @@
   font-weight: normal;
   font-size: 66px;
   margin: -10px 0 0 0;
-  transition: .4s;
+  transition: .1s;
   padding: 0 10px;
   box-sizing: border-box;
   font-family: 'Roboto Slab', serif;
@@ -42,16 +42,15 @@
 }
 .timeline-item {
   padding: 40px 0;
-  opacity: .3;
-  filter: blur(2px);
-  transition: .5s;
+  opacity: 1;
+  transition: .1s;
   box-sizing: border-box;
   width: calc(50% - 40px);
   display: flex;
   position: relative;
   transform: translateY(-80px);
 }
-.timeline-item:before {
+.timeline-item:before {           /* ta ths hmeromhnias */
   content: attr(data-text);
   letter-spacing: 3px;
   width: 100%;
@@ -78,10 +77,9 @@
   border-right: 2px solid rgba(255, 255, 255, 0.5);
   padding-right: 15px;
 }
-.timeline-item--active {
+.timeline-item--active {         /* oloklhro to paketo */
   opacity: 1;
   transform: translateY(0);
-  filter: blur(0px);
 }
 .timeline-item--active:before {
   top: 50%;
@@ -91,7 +89,7 @@
 .timeline-item--active .timeline__content-title {
   margin: -50px 0 20px 0;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 700px) {
   .timeline-item {
     align-self: baseline !important;
     width: 100%;
@@ -116,7 +114,7 @@
 .timeline-container {
   width: 100%;
   position: relative;
-  padding: 80px 0;
+  padding: 20px 0;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -142,14 +140,6 @@
   font-weight: normal;
   margin: 0;
 }
-.timeline-header__subtitle {
-  color: rgba(255, 255, 255, 0.5);
-  font-family: 'Roboto Slab', serif;
-  font-size: 16px;
-  letter-spacing: 5px;
-  margin: 0px 0 0 0;
-  font-weight: normal;
-}
 
 .demo-footer {
   padding: 30px 30px;
@@ -163,6 +153,13 @@
 
 .logo {
 	text-align: center;
+	padding-top: 15px;
+}
+
+.menu {
+	text-align: center;
+	height: 20px;
+	padding-bottom: 15px;
 }
 
 .timeline__imgLogo {
