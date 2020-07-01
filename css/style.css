@@ -62,7 +62,7 @@
   top: 70%;
   margin-top: -5px;
   padding-left: 15px;
-  opacity: 0;
+  opacity: 1;
   right: calc(-100% - 56px );
 }
 .timeline-item:nth-child(even) {
@@ -163,7 +163,7 @@
 }
 
 .timeline__imgLogo {
-  max-width: 20%;
+  max-width: 60px;
 }
 
 .footer_imgs {
